@@ -3,6 +3,7 @@ import { View, Image, Pressable, Text } from "react-native";
 import { Button } from "@/components/Button";
 import { Filter } from "@/components/Filter";
 import { Input } from "@/components/Input";
+import { Item } from "@/components/Item";
 import { FilterStatus } from "@/types/FilterStatus.types";
 
 import { styles } from "./Home.styles";
@@ -26,6 +27,18 @@ export function Home() {
             <Text style={styles.clearText}>Fechar</Text>
           </Pressable>
         </View>
+        <Item
+          data={{
+            description: "Foo Bar",
+            status: FilterStatus.DONE
+          }}
+          onStatus={() => {
+            console.log("Troca Status");
+          }}
+          onRemove={() => {
+            console.log("Remove");
+          }}
+        />
       </View>
     </View>
   );
