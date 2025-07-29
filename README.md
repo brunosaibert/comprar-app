@@ -7,7 +7,7 @@ Aplicativo simples para gerenciar listas de compras, feito com React Native e Ex
 
 ## Demonstração
 
-<img src="./assets/splash-icon.png" alt="Logo" width="120" />
+<img src="./src/assets/logo.png" alt="Logo" width="120" />
 
 ## Screenshots
 
@@ -16,16 +16,19 @@ Aplicativo simples para gerenciar listas de compras, feito com React Native e Ex
   <img src="./assets/screenshot2.jpg" alt="Lista de compras" width="250" />
 </div>
 
-## Vídeo
+## Gif
 
-<video src='./assets/ComprarApp.mp4' />
+<div align="center">
+  <img src="./assets/ComprarApp.gif" alt="GIF do projeto funcionando" width="250" />
+</div>
 
 ## Funcionalidades
 
-- Adicionar, editar e remover itens da lista
+- Adicionar e remover itens da lista
 - Marcar itens como comprados ou pendentes
 - Filtros por status
-- Interface intuitiva e responsiva
+- Limpar lista
+- Interface intuitiva
 
 ## Tecnologias Utilizadas
 
@@ -37,7 +40,7 @@ Aplicativo simples para gerenciar listas de compras, feito com React Native e Ex
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/comprar.git
+   git clone https://github.com/brunosaibert/comprar.git
    cd comprar
    ```
 2. Instale as dependências:
@@ -52,7 +55,7 @@ Aplicativo simples para gerenciar listas de compras, feito com React Native e Ex
 ## Publicação Expo
 
 Acesse o app via Expo:
-[https://expo.dev/@seu-usuario/comprar](https://expo.dev/@seu-usuario/comprar)
+[https://expo.dev/preview/update?message=feat%3A+publish+app+eas&updateRuntimeVersion=1.0.0&createdAt=2025-07-29T20%3A22%3A48.386Z&slug=exp&projectId=c8be6804-640b-4d41-9a2e-649de625ceeb&group=bf5cb767-4697-47e0-8c88-b61c015a7e0f](https://expo.dev/@brunosaibert/comprar)
 
 ## Como Contribuir
 
@@ -68,4 +71,4 @@ Este projeto está sob licença MIT.
 
 ---
 
-> Feito com ❤️ por [Seu Nome](https://github.com/seu-usuario)
+> Feito com ❤️ por [Bruno Henrique Saibert](https://github.com/brunosaibert)
