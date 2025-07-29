@@ -7,19 +7,15 @@ Aplicativo simples para gerenciar listas de compras, feito com React Native e Ex
 
 ## Demonstração
 
-<img src="./src/assets/logo.png" alt="Logo" width="120" />
+<div align="center">
+  <img src="./assets/ComprarApp.gif" alt="GIF do projeto funcionando" width="250" />
+</div>
 
 ## Screenshots
 
 <div align="center">
   <img src="./assets/screenshot1.jpg" alt="Tela inicial" width="250" />
   <img src="./assets/screenshot2.jpg" alt="Lista de compras" width="250" />
-</div>
-
-## Gif
-
-<div align="center">
-  <img src="./assets/ComprarApp.gif" alt="GIF do projeto funcionando" width="250" />
 </div>
 
 ## Funcionalidades
@@ -55,7 +51,7 @@ Aplicativo simples para gerenciar listas de compras, feito com React Native e Ex
 ## Publicação Expo
 
 Acesse o app via Expo:
-[https://expo.dev/preview/update?message=feat%3A+publish+app+eas&updateRuntimeVersion=1.0.0&createdAt=2025-07-29T20%3A22%3A48.386Z&slug=exp&projectId=c8be6804-640b-4d41-9a2e-649de625ceeb&group=bf5cb767-4697-47e0-8c88-b61c015a7e0f](https://expo.dev/@brunosaibert/comprar)
+[Clique AQUI](https://expo.dev/preview/update?message=feat%3A+publish+app+eas&updateRuntimeVersion=1.0.0&createdAt=2025-07-29T20%3A22%3A48.386Z&slug=exp&projectId=c8be6804-640b-4d41-9a2e-649de625ceeb&group=bf5cb767-4697-47e0-8c88-b61c015a7e0f)
 
 ## Como Contribuir
 
