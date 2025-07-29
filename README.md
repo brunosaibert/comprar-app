@@ -18,8 +18,8 @@ Aplicativo simples para gerenciar listas de compras, feito com React Native e Ex
 ## Screenshots
 
 <div align="center">
-  <img src="./assets/screenshot.jpg" alt="Tela inicial" width="250" />
-  <img src="./assets/screenshot2.jpg" alt="Lista de compras" width="250" />
+  <img src="https://raw.githubusercontent.com/brunosaibert/comprar-app/main/assets/screenshot.jpg" alt="Tela inicial" width="250" />
+  <img src="https://raw.githubusercontent.com/brunosaibert/comprar-app/main/assets/screenshot2.jpg" alt="Lista de compras" width="250" />
 </div>
 
 ## Funcionalidades
