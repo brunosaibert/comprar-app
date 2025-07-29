@@ -1,4 +1,8 @@
-# Comprar
+<div align="center">
+  <img src="./assets/logo.png" alt="Logo Comprar App" width="250" />
+</div>
+
+# Comprar App
 
 ![Expo](https://img.shields.io/badge/Expo-2025-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
@@ -14,7 +18,7 @@ Aplicativo simples para gerenciar listas de compras, feito com React Native e Ex
 ## Screenshots
 
 <div align="center">
-  <img src="./assets/screenshot1.jpg" alt="Tela inicial" width="250" />
+  <img src="./assets/screenshot.jpg" alt="Tela inicial" width="250" />
   <img src="./assets/screenshot2.jpg" alt="Lista de compras" width="250" />
 </div>
 
