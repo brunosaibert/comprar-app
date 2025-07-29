@@ -53,6 +53,18 @@ export function Home() {
     }
   }
 
+  async function onClear() {
+    try {
+      await itemsStorage.clear();
+
+      setItems([]);
+    } catch (error) {
+      console.log(error);
+
+      Alert.alert("Erro", "Não foi possível remover todos os itens.");
+    }
+  }
+
   async function handleRemove(id: string) {
     try {
       await itemsStorage.remove(id);
@@ -63,6 +75,16 @@ export function Home() {
 
       Alert.alert("Remover", "Não foi possível remover o item.");
     }
+  }
+
+  function handleClear() {
+    Alert.alert("Limpar", "Deseja remover todos?", [
+      { text: "Não", style: "cancel" },
+      {
+        text: "Sim",
+        onPress: () => onClear()
+      }
+    ]);
   }
 
   useEffect(() => {
@@ -90,8 +112,8 @@ export function Home() {
               onPress={() => setFilter(status)}
             />
           ))}
-          <Pressable style={styles.clearButton}>
-            <Text style={styles.clearText}>Fechar</Text>
+          <Pressable style={styles.clearButton} onPress={handleClear}>
+            <Text style={styles.clearText}>Limpar</Text>
           </Pressable>
         </View>
         <FlatList
