@@ -32,12 +32,12 @@ export function Home() {
 
     await itemsStorage.add(newItem);
 
-    await getItems();
+    await getItemsByStatus();
   }
 
-  async function getItems() {
+  async function getItemsByStatus() {
     try {
-      const response = await itemsStorage.get();
+      const response = await itemsStorage.getBySatus(filter);
 
       setItems(response);
     } catch (error) {
@@ -48,8 +48,8 @@ export function Home() {
   }
 
   useEffect(() => {
-    getItems();
-  }, []);
+    getItemsByStatus();
+  }, [filter]);
 
   return (
     <View style={styles.container}>
